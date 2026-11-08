@@ -1,0 +1,8 @@
+{
+  "name": "Remix SOCIALCOM",
+  "description": "Application SaaS tout-en-un de gestion des ventes, commandes, livraisons et finances pour commerçants sur WhatsApp, TikTok, Instagram et Facebook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

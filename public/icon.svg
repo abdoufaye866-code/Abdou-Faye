@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#022c22" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#brandGrad)"/>
+
+  <!-- Subtle glow ring -->
+  <circle cx="256" cy="256" r="180" stroke="#10b981" stroke-width="3" stroke-dasharray="12 12" opacity="0.3"/>
+
+  <!-- Shopping bag & network structure -->
+  <g filter="url(#shadow)">
+    <!-- Bag Handle -->
+    <path d="M196 190 V140 C196 106.86 222.86 80 256 80 C289.14 80 316 106.86 316 140 V190" 
+          stroke="url(#goldGrad)" stroke-width="26" stroke-linecap="round" fill="none"/>
+
+    <!-- Bag Body -->
+    <rect x="136" y="170" width="240" height="230" rx="36" fill="#ffffff"/>
+
+    <!-- Inside Bag: Lightning / Speed Wave Symbol -->
+    <path d="M266 210 L216 300 H260 L246 370 L306 280 H262 L280 210 Z" fill="url(#goldGrad)"/>
+    
+    <!-- WhatsApp / Social dot indicators -->
+    <circle cx="340" cy="210" r="14" fill="#25D366"/>
+    <circle cx="172" cy="210" r="14" fill="#E1306C"/>
+  </g>
+
+  <!-- Tagline badge -->
+  <rect x="146" y="420" width="220" height="42" rx="21" fill="#022c22" opacity="0.6"/>
+  <text x="256" y="447" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="3">SOCIALCOM</text>
+</svg>

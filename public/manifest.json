@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "SOCIALCOM - Ventes & Livraisons",
+  "short_name": "SOCIALCOM",
+  "description": "Toutes vos commandes, vos livraisons et votre argent au même endroit. Application SaaS pour vendeurs sur réseaux sociaux.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#064e3b",
+  "theme_color": "#047857",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
